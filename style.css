@@ -1,0 +1,269 @@
+body{
+    background-image: url(https://www.theedadvocate.org/wp-content/uploads/2018/02/AdobeStock_120461997-660x400@2x.jpeg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: 100vw;
+    backdrop-filter: brightness(50%);
+    color: black;
+    overflow: hidden;
+}
+
+
+.profile{
+display: block;
+width: 300px;
+margin-top: 20px;
+margin-left: 5vw;
+font-size: 30px;
+font-weight: 800;
+cursor: pointer;
+color: white;
+}
+
+ a{
+    text-decoration: none; 
+     color: black
+}
+
+li{
+    list-style: none;
+    padding: 13px;
+    font-size: 20px;
+    transition: all 0.2s linear;
+    border-bottom: 1px solid rgba(255,255,255,0.8);
+    width: 310px;
+    margin-left: -36px;
+    box-sizing: border-box;
+} 
+
+ul{
+ display: block;
+height: 100vh;
+padding: 75px 0px 0px 80px;
+} 
+
+li:hover{
+    font-style: italic;
+    padding-left: 95px;
+    font-weight: 900;
+    background-color: red;
+}
+
+.content{
+padding-left: 2vw;
+padding-right: 2vw;
+}
+
+.content h3{
+font-size: 60px;
+margin-top: -23px;
+font-weight: 900;
+color: white;
+cursor: pointer;
+}
+
+.content p{
+font-size: 19px;
+font-weight: bold;
+margin-left: -3px;
+margin-top: 130px;
+color: white;
+cursor: pointer;
+}
+
+.content button{
+border: none;
+background-color: #ffc40c;
+color: black;
+padding: 10px;
+width: 150px;
+height: 50px;
+border-radius: 8px;
+font-weight: bold;
+display: block;
+margin-bottom: 15px;
+margin-top: -35px;
+font-style: italic;
+transition: all 250ms linear;
+}
+
+.content button:hover{
+background-color: transparent;
+color:white;
+border: 3px solid #ffc40c;
+}
+
+.parent{
+display: flex;
+justify-content: space-between;
+margin-top: 155px;
+}
+
+.c1,
+.c2,
+.c3{
+width: 420px;
+height: 150px;
+background-color: rgba(0,0,0,0.8);
+color: WHITE;
+cursor: pointer;
+}
+
+.c1{
+font-size: 30px;
+box-sizing: border-box;
+display: flex;
+align-items: center;
+padding-left: 6px;
+}
+
+.c2{
+    font-size: 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    }
+
+    .c3{
+        font-size: 30px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        padding-left: 6px;
+        }
+
+.fa-book{
+margin-right: 30px;
+font-size: 60px !important;
+margin-left: 3px;
+color: #ffc40c;
+}
+
+.fa-graduation-cap{
+    color: #ffc40c;
+}
+
+
+
+
+
+
+
+
+
+
+ #openSidebarMenu:checked ~ .sidebar{
+    transform: translateX(0px);
+}
+
+input#openSidebarMenu{
+    display: none;
+}
+.sidebarIconToggle {
+  height: 22px;
+    width: 22px;
+    position: absolute;
+    z-index: 99;
+    top: 27px;
+    left: 15px;
+    transition: all 0.3s;
+    cursor: pointer; 
+} 
+.spinner {
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+.spinner.middle ,
+.spinner.bottom{
+    margin-top: 3px;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.middle {
+    opacity: 0;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.top {
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.bottom {
+    transform: rotate(-135deg);
+    margin-top: -9px;
+} 
+
+.sidebar{
+width: 310px;
+height: 100vh; 
+ background-color: #ffc40c;
+margin: -2px; 
+ transform: translateX(-310px);
+transition: all 0.2s linear; 
+}
+
+.fd{
+border: 3px solid black;
+margin-top: -100vh;
+}
+
+.li1{
+    display: flex;
+    width: 200px;
+    justify-content: flex-end;
+    display: block;
+    padding-left: 80px !important;
+}
+
+.menu2{
+display: block;
+margin-left: -42px;
+}
+
+.a1{
+color: black;
+}
+
+
+
+
+.login button{
+    background-color: royalblue;
+    border: none;
+    border-radius: 8px;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 1250px;
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: -50px;
+    transition: all 0.2s linear;;
+  }
+
+  .login button a{
+color: white;
+  }
+
+  .login:hover button{
+background-color: transparent;
+/* border: 3px solid #ffc40c; */
+border-radius: 9px;
+box-shadow: 3px 3px 1px 2px #ffc40c;
+}
+  
+  /* .login button:hover{
+    background-color: white;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 3px 1px grey;
+} */
+   /* .login button a{
+      color: white;
+      text-decoration: none;
+  }
+  
+
+  
+  .login button:hover a{
+  color: black;
+  }  */
